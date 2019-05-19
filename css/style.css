@@ -1,0 +1,311 @@
+/* Start Font */
+@import url('http://font.googleapis.com/css?family=Roboto');
+/* ENd Font */
+
+/* Start Body */
+body {
+    background-color: rgb(255, 255, 255);
+    color: #090909;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: blue
+}
+
+.bg-red {
+    background-color: red
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Ancor / Hyperlink */
+a: link,
+a: :visited {
+    color: #888888;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Ancor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    text-align: center;
+    background-color: rgb(64, 66, 63);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgb(0,0,0,.2),
+        0 6px 10px 0px rgb(0,0,0,.14),
+        0 1px 18px 0px rgb(0,0,0,.12),
+}
+
+.menu-primer li {
+    border-right: 1px solid #ffffff;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #1b1b1b;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #b4b4b4;
+    color: #ff0000;
+    text-decoration: none;
+}
+/* Start Menu Primer */
+
+/* Start Menu */
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%
+}
+/* End Menu */
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 29%
+}
+/* End Sidebar */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49%;
+}
+.main-home-two {
+    float: right;
+    width: 49%
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 130px
+}
+/* End Main */
+
+/* Start Breadcumbs */
+.breadcumbs {
+    font-size: 16px;
+    background-color: rgb(153, 153, 255);
+    border: 1px solid #a7cfff;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
+/* End Breadcumbs */
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f6f6;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0
+}
+
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+    border-left: #dfe2e5;
+    margin-left: 30px;
+    padding-left: 10px 0;
+}
+/* End Testimonial */
+
+/* Start Logo Kontak*/
+.logo-medos li img {
+    vertical-align: middle;
+}
+/* End Logo Kontak*/
+
+/* Start Table Jenis Kontributor */
+.table-jenis {
+    border: 1px solid #d1d5da;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.table-jenis th {
+    background-color: #f6f8fa;
+}
+.table-jenis td {
+    text-align: center;
+}
+/* Start Table Jenis Kontributor */
+
+/* Start Form */
+input[type:"text"],
+input[type:"email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+    font-weight: 30;
+}
+
+input[type:submit] {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg,
+    #fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0px;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%
+}
+.menu-sekunder-two {
+    width: 40%
+}
+.menu-sekunder-three {
+    width: 15%
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
