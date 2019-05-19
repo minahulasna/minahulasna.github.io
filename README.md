@@ -1,1 +1,0 @@
-# minahulasna.github.io
